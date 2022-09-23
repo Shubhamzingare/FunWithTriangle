@@ -22,21 +22,54 @@
     </header>
     <h1 id="heading">Triangle Quiz</h1>
     <form class="quiz-form">
+        <ol>
         <div class="question-container">
-            <p>What is third angle for the triangle where angle1 = 45° and angle1 = 45° ?</p>
-            <label><input class="radio-input" type="radio" name="question1" value="45">45°</label>
-            <label><input class="radio-input" type="radio" name="question1" value="60">60°</label>
-            <label><input class="radio-input" type="radio" name="question1" value="90">90°</label>
+            <li>The right-angled triangle must have</li>
+            <label><input class="radio-input" type="radio" name="question1" value="a">Four right angles</label>
+            <label><input class="radio-input" type="radio" name="question1" value="b">Three right angles</label>
+            <label><input class="radio-input" type="radio" name="question1" value="c">One right angle</label>
+            <label><input class="radio-input" type="radio" name="question1" value="d">Two right angle</label>
         </div>
         <div class="question-container">
-            <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+            <li>If a triangle has an angle of 90 degrees, what is it called?</li>
             <label><input type="radio" name="question2" value="acute">Acute</label>
             <label><input type="radio" name="question2" value="obtuse">obtuse</label>
             <label><input type="radio" name="question2" value="right angled">Right Angled</label>
+            <label><input type="radio" name="question2" value="Equilateral">Equilateral</label>
         </div>
+        <div class="question-container">
+            <li>If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?</li>
+            <label><input type="radio" name="question3" value="30">30°</label>
+            <label><input type="radio" name="question3" value="30">30°</label>
+            <label><input type="radio" name="question3" value="10">10°</label>
+            <label><input type="radio" name="question3" value="40">40°</label>
+        </div>
+        <div class="question-container">
+            <li>If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?</li>
+            <label><input type="radio" name="question4" value="100">100°</label>
+            <label><input type="radio" name="question4" value="90">90°</label>
+            <label><input type="radio" name="question4" value="105">105°</label>
+            <label><input type="radio" name="question4" value="85">85°</label>
+        </div>
+        <div class="question-container">
+            <li>The sum of the angles of the triangle is : </li>
+            <label><input type="radio" name="question5" value="a">at least 180°</label>
+            <label><input type="radio" name="question5" value="180">exactly 180°</label>
+            <label><input type="radio" name="question5" value="c">at most 180°</label>
+            <label><input type="radio" name="question5" value="d">less than 180°</label>
+        </div>
+        <div class="question-container">
+            <li>The triangles can be classified on the basis of </li>
+            <label><input type="radio" name="question6" value="a">the number of equal sides</label>
+            <label><input type="radio" name="question6" value="b">the types of angles</label>
+            <label><input type="radio" name="question6" value="c">length of line segments</label>
+            <label><input type="radio" name="question6" value="both">both a and b</label>
+        </div>
+
+    </ol>
     </form>
-    <button id="check-answer">Check</button>
     <div id="output"></div>
+    <button id="check-answer" type="submit">Submit</button>
     <script src="quiz.js"></script>
 </body>
 </html>

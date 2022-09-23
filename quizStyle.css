@@ -20,7 +20,7 @@ body{
     text-align: center;
 }
 
-label,p,#heading{
+label,li,#heading{
     color: white;
 }
 
@@ -53,6 +53,7 @@ label{
 .question-container{
     font-weight: bold;
     margin: 2rem;
+    text-align: left;
 }
 
 .question-container p {
@@ -69,4 +70,12 @@ button{
 #output{
     font-size: x-large;
     font-weight: bolder;
+    color:whitesmoke;
 }
+
+#check-answer
+    {
+        border-radius: 1rem;
+        color: #BDFF00;
+        background: linear-gradient(120deg, #4B0000 0%, green 150%);
+    }
